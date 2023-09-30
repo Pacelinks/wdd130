@@ -1,0 +1,25 @@
+body {
+text-align: center;
+}
+nav {
+  background-color: #3a7ca5;
+  padding: 10px;
+}
+a {
+  color: white;
+  margin: 40px;
+}
+h1 {
+  color: #d9dcd6;
+}
+img {
+  width: 800px;
+  border: 4px solid #16425b;
+}
+p {
+  padding: 10px;
+}
+footer {
+  background-color: #81c3d7;
+  color: white;
+}
