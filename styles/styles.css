@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --heading-background-color: #f06;
     --heading-tex-color: #333;
@@ -15,8 +21,14 @@ h1 {
     color: darkblue;
 }
 
+aside h2 {
+    position: absolute: top: 47px;
+    left: 150px;
+}
 
 aside {
+    width: 20cm;
+    text-align: center;
     margin: 10px auto;
     padding: var(--padding);
     box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
@@ -42,6 +54,20 @@ img {
     box-shadow: 0 0 30px gray;
 }
 
+main img {
+    /* declaration */
+    float: right
+}
+
 p {
     padding: 10px;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgb%;
+    padding: 1rem;
+    background-color: #bbb;
+    color: #000;
 }
