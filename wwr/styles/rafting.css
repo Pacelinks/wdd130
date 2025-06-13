@@ -1,97 +1,152 @@
-   header {
-       background-color: var(--primary-color);
-       color: var(--accent2-color);
-       color: #020445
-   }
+  * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
 
-   * {
-       margin: 0;
-       padding: 0;
-       box-sizing: border-box;
-   }
+  header {
+      background-color: var(--primary-color);
+      color: var(--accent2-color);
+      color: #020445 margin: 1rem auto;
+      display: grid;
+      grid-template-columns: 120px 1fr 1fr;
+      align-items: center;
+      border-bottom: 1px solid #ccc;
+      max-width: 1000px;
+  }
 
-   heading-font {
-       font-family: "Roboto", fallback-font, generic-family;
-   }
+  .logo img {
+      margin: 0 0.25rem 0 1rem;
+      width: 64px;
+      height: auto;
+  }
 
-   body {
-       font-family: "Roboto", "Helvetica", sans-serif;
-   }
+  h1 {
+      font-size: 2rem;
+      font-family: Acme, Arial, sans-serif;
+  }
 
-   body {
-       font-family: var(--body-font);
-       color: var(--accent1-color);
-       color: #020445
-   }
+  .navigation {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      padding: 0;
+      font-family: Arial, sans-serif;
+  }
 
-   p {
-       font-family: 'Roboto', Arial, sans-serif;
-       color: var(--secobdary-color);
-       color: #e3eefc
-   }
+  .navigation li {
+      flex: 1 1 auto;
+  }
+
+  .navigation a {
+      display: block;
+      color: navy;
+      padding: 20px;
+      text-decoration: none;
+      font-size: 1.2rem;
+  }
+
+  .navigation a:hover {
+      color: tomato;
+      font-weight: 700;
+      text-decoration: underline;
+  }
+
+  body {
+      font-family: Acme, Arial, sans-serfi;
+  }
+
+  article {
+      margin: 1em auto;
+      border: 1px solid rgb(0 0 0 / 0.1);
+      padding: 1em;
+      background-color: #ace;
+      width: min(600px, 100%);
+      font-size: 1.2rem;
+  }
+
+  heading-font {
+      font-family: "Roboto", fallback-font, generic-family;
+  }
+
+  body {
+      font-family: "Roboto", "Helvetica", sans-serif;
+  }
+
+  body {
+      font-family: var(--body-font);
+      color: var(--accent1-color);
+      color: #020445
+  }
+
+  p {
+      font-family: 'Roboto', Arial, sans-serif;
+      color: var(--secobdary-color);
+      color: #e3eefc
+  }
 
 
-   heade,
-   main,
-   footer {
-       width: 840x;
-       margin: 0 auto;
-   }
+  heade,
+  main,
+  footer {
+      width: 840x;
+      margin: 0 auto;
+  }
 
-   h1,
-   h2 {
-       font-family: var(--heading-font);
-       color: var(--primary-color);
-       color: #020445
-   }
+  h1,
+  h2 {
+      font-family: var(--heading-font);
+      color: var(--primary-color);
+      color: #020445
+  }
 
-   h1 {
-       font-family: "Arial", sans-serif;
-   }
+  h1 {
+      font-family: "Arial", sans-serif;
+  }
 
-   h2 {
-       font-family: "Georgia", serif;
-   }
+  h2 {
+      font-family: "Georgia", serif;
+  }
 
-   nav,
-   p,
-   section,
-   article {
-       margin: 16x;
-       padding: 8px;
-   }
+  nav,
+  p,
+  section,
+  article {
+      margin: 10x;
+      padding: 8px;
+  }
 
-   p {
-       font-family: Arial, sans-serif;
-   }
+  p {
+      font-family: Arial, sans-serif;
+  }
 
-   .socialmedia a {
-       text-decoration: none;
-   }
+  .socialmedia a {
+      text-decoration: none;
+  }
 
-   .hero img {
-       display: block;
-       width: 100% heiight: auto;
-   }
+  .hero img {
+      display: block;
+      width: 100% heiight: auto;
+  }
 
-   h1 {
-       position: absolute;
-       top: 20px;
-       width: 100%;
-       padding: 16px;
-       text-align: center;
-       opacity: 0, 7;
-       color: var(--accent1-color);
-       color: #7699c2;
-   }
+  h1 {
+      position: absolute;
+      top: 20px;
+      width: 100%;
+      padding: 16px;
+      text-align: center;
+      opacity: 0, 7;
+      color: var(--accent1-color);
+      color: #7699c2;
+  }
 
-   .hero article img {
-       float: right;
-       width: 125px;
-   }
+  .hero article img {
+      float: right;
+      width: 125px;
+  }
 
-   .photos {
-       width: 100%;
-   }
+  .photos {
+      width: 100%;
+  }
 
-   .photos img {}
+  .photos img {}
