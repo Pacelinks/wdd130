@@ -5,7 +5,7 @@
 }
 
 :root {
-    --heading-background-color: rgb(234, 168, 194);
+    --heading-background-color: rgb(214, 187, 137);
     --heading-tex-color: #333;
     --heading-font: 'Montserrat', Helvetica, sans-serif;
     --padding: 1rem;
@@ -18,7 +18,7 @@ h1 {
     font-family: var(--heading-font);
     padding: var(--padding);
 
-    color: rgb(6, 6, 152);
+    color: rgba(52, 22, 2, 0.346);
 }
 
 aside h2 {
@@ -35,7 +35,7 @@ aside {
 }
 
 nav {
-    background-color: rgb(136, 136, 163);
+    background-color: rgb(127, 66, 22);
     padding: 10px;
 }
 
