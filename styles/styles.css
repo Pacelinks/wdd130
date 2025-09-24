@@ -20,7 +20,9 @@ h1 {
 
     color: rgb(152, 67, 6);
 }
-
+{
+    max-width: 840px;
+}
 aside h2 {
     position: absolute: top: 47px;
     left: 150px;
@@ -32,6 +34,8 @@ aside {
     margin: 10px auto;
     padding: var(--padding);
     box-shadow: 0 0 10px rgb(0 0 0 / 0.1);
+    background-color: skyblue;
+    color:rgb(33, 33, 71)
 }
 
 nav {
@@ -51,16 +55,20 @@ img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px rgb(62, 30, 30);
 }
 
 main img {
     /* declaration */
     float: right
-}
+    width: 150px; 
+    height: auto;
+...
+}  
+
 
 p {
-    padding: 10px;
+    padding: 0;
 }
 
 /* Class Selectors */
@@ -71,3 +79,8 @@ p {
     background-color: #bbb;
     color: #000;
 }
+footer {
+    margin-top: 15px;
+    border-top: 1px solid
+    text-align: center;
+    }
