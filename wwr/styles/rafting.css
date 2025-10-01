@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #9b0606fd;
+    --primary-color: #0b1d6bfd;
     --secondary-color: #11bdd5;
     --accent1-color: #bd7841;
     --accent2-color: grey;
@@ -33,9 +33,16 @@ h2 {
 
 nav,
 p,
-section. article {
+article {
     margin: 16px;
     padding: 8px;
+}
+
+section {
+    margin: 20px 0;
+    border: 1px solid rgb 10 10 10/ padding: 10px;
+    background-color: #D3D3D3;
+    font-size;
 }
 
 .socialmedia a {
@@ -53,18 +60,24 @@ section. article {
 }
 
 .hero article img {
-    float: right widt: 125px;
+    float: right;
+    width: 125px;
 }
 
 h1 {
-    background-color: var(--heading-background-color);
-    color: var(--heading-text-color);
-    font-family: var(--heading-font);
-    color: rgb(152, 67, 6);
-    padding: 16px;
-    text-align: center;
     position: absolute;
     top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent1-color);
+    color: var(--heading-text-color);
+    font-family: var(--heading-font);
+    color: rgb(204, 2, 36);
+   
+    text-align: center;
+    
     width: 100%;
     text-align: center;
     opacity: 0.7;
